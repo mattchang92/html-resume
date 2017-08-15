@@ -26,7 +26,7 @@ h6 {
 	font-weight: 700;
 }
 a {
-	color: #2d7788;
+	color: #42536F;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
@@ -43,7 +43,7 @@ p {
 	line-height: 1.5;
 }
 .wrapper {
-	background: #42A8C0;
+	background: #42536F;
 	max-width: 960px;
 	margin: 0 auto;
 	position: relative;
@@ -52,7 +52,7 @@ p {
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-	background: #42A8C0;
+	background: #42536F;
 	position: absolute;
 	right: 0;
 	width: 240px;
@@ -68,6 +68,14 @@ p {
 	background: rgba(0, 0, 0, 0.2);
 	text-align: center;
 	color: #fff;
+}
+.sidebar-wrapper .profile-picture {
+	background-image: url('../images/profile.jpg');
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-size: cover;
+	margin: auto;
 }
 .sidebar-wrapper .name {
 	font-size: 32px;
@@ -92,6 +100,7 @@ p {
 }
 .sidebar-wrapper .contact-list li {
 	margin-bottom: 15px;
+	font-size: 13px;
 }
 .sidebar-wrapper .contact-list li:last-child {
 	margin-bottom: 0;
@@ -100,7 +109,7 @@ p {
 	font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-	padding: 30px 15px;
+	padding: 30px 22px;
 }
 .sidebar-wrapper .container-block-title {
 	text-transform: uppercase;
@@ -161,7 +170,7 @@ p {
 	text-transform: uppercase;
 	font-size: 20px;
 	font-weight: 500;
-	color: #2d7788;
+	color: #42536F;
 	position: relative;
 	margin-top: 0;
 	margin-bottom: 20px;
@@ -180,7 +189,7 @@ p {
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	background: #2d7788;
+	background: #42536F;
 	text-align: center;
 	padding-top: 8px;
 	font-size: 16px;
@@ -191,12 +200,23 @@ p {
 	margin-bottom: 60px;
 }
 .main-wrapper .experiences-section .item {
+	position: relative;
 	margin-bottom: 30px;
+}
+.main-wrapper .experiences-section .pendo-logo {
+	position: absolute;
+	border-radius: 15px;
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/pendo.png');
+	background-size: cover;
 }
 .main-wrapper .upper-row {
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 2px;
+	width: 92%;
+	margin-left: 40px;
 }
 .main-wrapper .job-title {
 	color: #3F4650;
@@ -212,7 +232,9 @@ p {
 	color: #97AAC3;
 }
 .main-wrapper .company {
+	width: 92%;
 	margin-bottom: 10px;
+	margin-left: 40px;
 	color: #97AAC3;
 }
 .main-wrapper .project-title {
