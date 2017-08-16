@@ -203,13 +203,18 @@ p {
 	position: relative;
 	margin-bottom: 30px;
 }
-.main-wrapper .experiences-section .pendo-logo {
+.main-wrapper .experiences-section .company-logo {
 	position: absolute;
-	border-radius: 15px;
+	border-radius: 7px;
 	width: 30px;
 	height: 30px;
-	background-image: url('../images/pendo.png');
 	background-size: cover;
+}
+.main-wrapper .experiences-section .company-logo.pendo-logo {
+	background-image: url('../images/pendo.png');
+}
+.main-wrapper .experiences-section .company-logo.codecore-logo {
+	background-image: url('../images/codecore.jpeg');
 }
 .main-wrapper .upper-row {
 	position: relative;
