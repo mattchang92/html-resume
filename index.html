@@ -46,7 +46,7 @@
 						</div><!--//education-container-->
 
 						<div class="download-link">
-							<a target="_blank" href="https://s3.amazonaws.com/matts-resume/Matt+Chang's+Resume.pdf">
+							<a target="_blank" href="https://s3.amazonaws.com/resume.mattchang.ca/Matt+Chang's+Resume.pdf">
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download">
 									<path d="M3 17v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3"></path>
 									<polyline points="8 12 12 16 16 12"></polyline>
@@ -64,11 +64,31 @@
 								<h2 class="section-title">Experiences</h2>
 
 								<div class="item">
+									<div class="company-logo finn-logo"></div>
+									<div class="meta">
+											<div class="upper-row">
+													<h3 class="job-title">Software Engineer</h3>
+													<div class="time">Seot 2017 - Present</div>
+											</div><!--//upper-row-->
+											<div class="company">Finn.ai, Vancouver</div>
+									</div><!--//meta-->
+									<div class="details">
+										<ul>
+											<li>Backend development using Node.js, Express, PostgreSQL, MongoDB, Docker and Redis.</li>
+											<li>Designed and setup the testing infrastructure of the core Node server using Ava. Covering all of the top
+                      level intents, the system tested end-to-end bot conversational exchanges.</li>
+											<li>Assisted with sys admin duties in maintaining the company’s network of 50+ computers to ease onboarding of new machines as
+                      well as to ensure satisfaction of SOC 2 compliance requirements.</li>
+										</ul>
+									</div><!--//details-->
+                </div><!--//item-->
+                
+								<div class="item">
 									<div class="company-logo pendo-logo"></div>
 									<div class="meta">
 											<div class="upper-row">
 													<h3 class="job-title">Full Stack Developer</h3>
-													<div class="time">Nov 2016 - Present</div>
+													<div class="time">Nov 2016 - Sept 2017</div>
 											</div><!--//upper-row-->
 											<div class="company">Pendo, Vancouver</div>
 									</div><!--//meta-->
@@ -124,7 +144,8 @@
 										<span class="project-title"><a target="_blank" href="https://github.com/mattchang92/canvas-playground">Canvas Music Visualizer</a></span> -
 										<span class="project-tagline">
 											A single page music visualizer app that analyzes audio samples from Spotify using the Web AudioContext API.
-											Built using ES6, HTML5 Canvas, React/Redux, Sass, compiled with Webpack and deployed on Amazon S3.
+											Built using ES6, HTML5 Canvas, React/Redux, Sass, compiled with Webpack.
+                      Hosted on S3 and served by Route 53 from a CloudFront CDN distribution with an AWS managed SSL certificate.
 										</span>
 								</div><!--//item-->
 						</section><!--//section-->
@@ -132,35 +153,31 @@
 						<section class="skills-section section">
 								<h2 class="section-title"></i>Technical Skills &amp; Proficiency</h2>
 								<div class="skillset">
+                    <div class="item">
+                      <h3 class="level-title">Certifications</h3>
+                      <p class="skills">AWS Certified Solutions Architect - Associate</p>
+                    </div>
+                    <!--//item-->
+
 										<div class="item">
 												<h3 class="level-title">Frontend Development</h3>
 												<div class="skills-container">
-													<p class="skills"><strong>Strong</strong>: Javascript(ES6), React, Redux, Backbone, Marionette</p>
-													<p class="skills"><strong>Knowledgeable</strong>: Bootstrap, Less, Webpack, React-Native</p>
+													<p class="skills"><strong>Strong</strong>: ES6, React, Redux, Backbone, Marionette</p>
+													<p class="skills"><strong>Knowledgeable</strong>: Bootstrap, Less/Sass, Webpack, Jest/Enzyme</p>
 												</div>
 										</div><!--//item-->
 
 										<div class="item">
 												<h3 class="level-title">Backend Development</h3>
 												<div class="skills-container">
-													<p class="skills"><strong>Strong</strong>: Ruby(Rails), NodeJS(Express)</p>
-													<p class="skills"><strong>Knowledgeable</strong>: TDD(Rspec, Chai, Sinon), AWS (EC2, S3)</p>
+													<p class="skills"><strong>Strong</strong>: NodeJS(Express), MongoDB</p>
+													<p class="skills"><strong>Knowledgeable</strong>: Ava, Redis, Docker, PostgreSQL, Rails</p>
 												</div>
 										</div><!--//item-->
 
 										<div class="item">
-												<h3 class="level-title">Database</h3>
-												<p class="skills">MongoDB, PostgreSQL(Activerecord)</p>
-										</div><!--//item-->
-
-										<div class="item">
-												<h3 class="level-title">Version Control</h3>
-												<p class="skills">Git, Github, Bitbucket</p>
-										</div><!--//item-->
-
-										<div class="item">
 												<h3 class="level-title">Strengths</h3>
-												<p class="skills">API design, Frontend/Backend Architecture, Version Control</p>
+												<p class="skills">Cloud Infrastructure (AWS), Frontend/Backend Architecture, Version Control</p>
 										</div><!--//item-->
 
 								</div>

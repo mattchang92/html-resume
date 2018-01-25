@@ -219,6 +219,11 @@ p {
 .main-wrapper .experiences-section .company-logo.pendo-logo {
 	background-image: url('../images/pendo.png');
 }
+.main-wrapper .experiences-section .company-logo.finn-logo {
+  background-image: url('../images/finn.png');
+  transform: scale(0.9);
+  border-radius: 0;
+}
 .main-wrapper .experiences-section .company-logo.codecore-logo {
 	background-image: url('../images/codecore.jpeg');
 }
