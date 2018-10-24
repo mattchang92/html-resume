@@ -21,7 +21,6 @@
 
 						<div class="contact-container container-block">
 								<ul class="list-unstyled contact-list">
-										<li class="phone"><i class="fa fa-phone"></i><a href="tel:0123 456 789">604 809 2927</a></li>
 										<li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/mattchang92" target="_blank">linkedin.com/in/mattchang92</a></li>
 										<li class="github"><i class="fa fa-github"></i><a href="https://github.com/mattchang92" target="_blank">github.com/mattchang92</a></li>
 								</ul>
@@ -75,14 +74,13 @@
 									<div class="details">
 										<ul>
 											<li>Backend development using Node.js, Express, PostgreSQL, MongoDB, Docker and Redis.</li>
+											<li>Migrated the backend from MongoDB to Postgres (RDS), reducing the company’s total AWS infrastructure cost by 30%.</li>
 											<li>Designed and setup the testing infrastructure of the core Node server using Ava. Covering all of the top
                       level intents, the system tested end-to-end bot conversational exchanges.</li>
-											<li>Assisted with sys admin duties in maintaining the company’s network of 50+ computers to ease onboarding of new machines as
-                      well as to ensure satisfaction of SOC 2 compliance requirements.</li>
 										</ul>
 									</div><!--//details-->
                 </div><!--//item-->
-                
+
 								<div class="item">
 									<div class="company-logo pendo-logo"></div>
 									<div class="meta">
@@ -96,7 +94,7 @@
 										<ul>
 											<li>Full stack development using Node.js, Express, React/Redux, Backbone/Marionette, MongoDB and Webpack.</li>
 											<li>Implemented a secure banking feature by integrating BMO's direct electronic funds transfer service which allowed users to collect payments directly from their tenants.</li>
-											<li>Secured the siloed backend server housing all the banking related data through a combination of client ID/secret, checksums and public key encryption.</li>
+											<li>Set up the client facing server as well as the isolated backend service for storing/processing all banking related data. </li>
 										</ul>
 									</div><!--//details-->
 								</div><!--//item-->
@@ -119,33 +117,24 @@
 									</div><!--//details-->
 								</div><!--//item-->
 
-								<div class="item">
-									<div class="company-logo columbia-logo"></div>
-									<div class="meta">
-											<div class="upper-row">
-													<h3 class="job-title">Lab Assistant</h3>
-													<div class="time">May 2013 - Jan 2015</div>
-											</div><!--//upper-row-->
-											<div class="company">Biomaterials &amp; Tissue Engineering Lab - Columbia University, New York</div>
-									</div><!--//meta-->
-									<div class="details">
-										<ul>
-											<li>Designed and implemented multi-month experiments focused on examining the long-term viability of stem cells on a biomaterial scaffold.</li>
-											<li>Daily tasks included data collection/analysis, computer imaging/processing of samples and cell work in a sterile environment.</li>
-										</ul>
-									</div><!--//details-->
-								</div><!--//item-->
-
 						</section><!--//section-->
 
 						<section class="section projects-section">
 								<h2 class="section-title"></i>Projects</h2>
 								<div class="item">
-										<span class="project-title"><a target="_blank" href="https://github.com/mattchang92/canvas-playground">Canvas Music Visualizer</a></span> -
+										<span class="project-title">Gameboy Emulator</span><br>
 										<span class="project-tagline">
-											A single page music visualizer app that analyzes audio samples from Spotify using the Web AudioContext API.
-											Built using ES6, HTML5 Canvas, React/Redux, Sass, and compiled with Webpack.
-                      The app is hosted on S3 and served by Route 53 from a CloudFront CDN distribution with an AWS managed SSL certificate.
+                      A Gameboy emulator written in JavaScript that can be run in the browser or within Node.js.
+                      Passes all CPU accuracy tests and can play games without rom bank switching and MBC1 games.
+                      Work in progress, still need to emulate sound, the extra memory bank controllers and to be deployed.
+										</span>
+								</div><!--//item-->
+								<div class="item">
+										<span class="project-title">Slack Trivia Bot</span><br>
+										<span class="project-tagline">
+                      Slack bot that manages Finn.AI’s internal quarterly trivia competitions.
+                      Tracks daily question categories and individual points/rankings from season to season.
+                      Built with Node.js/MongoDB and hosted on AWS with free SSL certificate obtained from Let’s Encrypt.
 										</span>
 								</div><!--//item-->
 						</section><!--//section-->
@@ -164,7 +153,7 @@
 										<div class="item">
 												<h3 class="level-title">Frontend Development</h3>
 												<div class="skills-container">
-													<p class="skills"><strong>Strong</strong>: ES6, React, Redux, Backbone, Marionette</p>
+													<p class="skills"><strong>Strong</strong>: ES6, React, Redux</p>
 													<p class="skills"><strong>Knowledgeable</strong>: Bootstrap, Less/Sass, Webpack, Jest/Enzyme</p>
 												</div>
 										</div><!--//item-->
