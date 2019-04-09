@@ -27,10 +27,6 @@ h6 {
 }
 a {
 	color: #42536F;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
 }
 a:hover {
 	text-decoration: underline;
@@ -223,6 +219,9 @@ p {
   background-image: url('../images/finn.png');
   transform: scale(0.9);
   border-radius: 0;
+}
+.main-wrapper .experiences-section .company-logo.amazon-logo {
+	background-image: url('../images/amazon.png');
 }
 .main-wrapper .experiences-section .company-logo.codecore-logo {
 	background-image: url('../images/codecore.jpeg');
